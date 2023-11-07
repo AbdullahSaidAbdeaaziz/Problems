@@ -26,7 +26,7 @@ string Problems::find_the_intergral(const int& exponent, const int& coefficient)
 
 string Problems::disemvowel(const std::string& str)
 { 
-	// vowels if a u i o e
+	// vowels are a u i o e
 	string vowels = "auioe";
 	string new_str = str;
 	for (char c : vowels) {
@@ -38,7 +38,9 @@ string Problems::disemvowel(const std::string& str)
 		);
 		new_str.erase(
 			remove(
-				new_str.begin(), new_str.end(),(char)toupper(c)
+				new_str.begin(),
+				new_str.end(),
+				(char)toupper(c)
 			),
 			new_str.end()
 		);
