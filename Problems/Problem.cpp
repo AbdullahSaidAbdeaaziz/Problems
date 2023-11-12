@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
-using namespace std;
+#include "Problems.h"
 
 int main() {
-    // Test problems 
+    Problems::draw_palestine_flag();
+  
     return 0;
 }
