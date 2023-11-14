@@ -3,6 +3,5 @@
 
 int main() {
     Problems::draw_palestine_flag();
-  
     return 0;
 }

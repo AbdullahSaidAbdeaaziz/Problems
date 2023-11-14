@@ -50,7 +50,7 @@ string Problems::disemvowel(const string& str)
 
 void Problems::draw_palestine_flag()
 {
-    // #Free palestine
+    // #Free Palestine
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 
     int size = 10;
